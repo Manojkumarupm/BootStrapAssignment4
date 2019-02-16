@@ -1,0 +1,6 @@
+C:\Users\m9peru\Desktop\FSE\C#\Assignment14\Assignment4\Assignment4\bin\Assignment4.dll.config
+C:\Users\m9peru\Desktop\FSE\C#\Assignment14\Assignment4\Assignment4\bin\Assignment4.dll
+C:\Users\m9peru\Desktop\FSE\C#\Assignment14\Assignment4\Assignment4\bin\Assignment4.pdb
+C:\Users\m9peru\Desktop\FSE\C#\Assignment14\Assignment4\Assignment4\obj\Debug\Assignment4.csprojResolveAssemblyReference.cache
+C:\Users\m9peru\Desktop\FSE\C#\Assignment14\Assignment4\Assignment4\obj\Debug\Assignment4.dll
+C:\Users\m9peru\Desktop\FSE\C#\Assignment14\Assignment4\Assignment4\obj\Debug\Assignment4.pdb

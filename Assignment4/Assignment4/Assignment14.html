@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.3.1.js"></script>
+    
+
+    <style>
+        .panel-primary {
+            border-color: #bce8f1;
+        }
+
+            .panel-primary > .panel-heading {
+                background: #bce8f1;
+            }
+
+        .bg-gray {
+            background-color: gray;
+        }
+
+        .panel-primary > .panel-body {
+            background-color: #EDEDED;
+        }
+
+
+        body, html {
+            height: 80%;
+            background-repeat: no-repeat;
+            background-color: #45433f;
+            font-family: Cambria, sans-serif;
+        }
+
+        .main {
+            margin-top: 70px;
+        }
+
+        
+
+        hr {
+            width: 10%;
+            color: #fff;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            
+        }
+
+        label {
+            margin-bottom: 15px;
+            color:white;
+        }
+
+        input,
+        input::-webkit-input-placeholder {
+            font-size: 9px;
+            color:white;
+            border-radius:2px;
+        }
+
+        .main-login {
+            background-color: #fff;
+            /* shadows and rounded borders */
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+            
+        }
+
+        .main-center {
+            margin-top: 5px;
+            margin: 0 auto;
+            max-width: 330px;
+            padding: 6px 6px 6px 6px;
+        }
+
+        .login-button {
+            margin-top: 5px;
+            background-color:gray;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        h4 {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row col-lg-12">
+            <div class="col-lg-6 col-md-6 col-sd-10 col-lg-offset-3 col-md-offset-3 align-content-center">
+                <div class="panel panel-heading col-offset-3">
+                    <h4 class="text-center">BootStrap 4 Demo</h4>
+                </div>
+                <br />
+
+
+
+                <div class="panel-body">
+                    <div class="main-login main-center">
+                        <form class="form-horizontal bg-dark col-lg-12 col-lg-offset-12" method="post" action="#">
+                            <div class="card bg-dark rounded-0">
+                                <div class="card-header p-0">
+                                    <div class="bg-gray text-white text-center py-2">
+                                        <h3>Signup</h3>
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="username" class="cols-lg-12 control-label">Username</label>
+                                    <div class="col-lg-11 col-lg-offset-1">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control bg-gray" name="username" id="username" placeholder="Username" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="email" class="cols-lg-12 control-label">Email</label>
+                                    <div class="col-lg-11 col-lg-offset-1">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control bg-gray" name="email" id="email" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="password" class="cols-lg-12 control-label">Password</label>
+                                    <div class="col-lg-11 col-lg-offset-1">
+                                        <div class="input-group">
+                                            <input type="password" class="form-control bg-gray" name="password" id="password" placeholder="Password" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-lg-12">
+                                    <label for="confirm" class="cols-lg-12 control-label">ReType Password</label>
+                                    <div class="col-lg-11 col-lg-offset-1">
+                                        <div class="input-group">
+
+                                            <input type="password" class="form-control bg-gray" name="confirm" id="confirm" placeholder="ReType Password" />
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="col-xs-9 col-xs-offset-3">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="agree" value="agree" /> Accept the terms and Policies
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <button type="button" class="btn btn-primary btn-xs">Sign Up</button>
+                                </div>
+                                <div class="form-group">
+                                    <span class="align-content-lg-center">Already Have an Account ?</span>
+                                </div>
+                                <div class="form-group ">
+                                    <button type="button" class="btn btn-primary btn-xs btn-block">Sign In</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br />
+
+                <div class="panel panel-primary col-offset-3">
+                    <h4 class="text-center"><span>Built in</span><a href="http://boostrap.com">BootStrap 3</a>| <a href="https://google.com">Made by Avdev</a></h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+</body>
+</html>
